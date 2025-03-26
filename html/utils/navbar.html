@@ -1,0 +1,70 @@
+<style>
+    :root {
+        --primary-color: #333;
+        --primary-color-hover: lightgrey;
+        --secondary-color: white;
+    }
+
+    header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    h2 a {
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        color: var(--primary-color-hover);
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: var(--secondary-color);
+    }
+
+    footer {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        text-align: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+</style>
+
+<header>
+    <h2><a href="/">Títol</a></h2>
+    <nav>
+        <ul>
+            <li><a href="/html/directors.html">Directors</a></li>
+            <li><a href="/html/filmdle.html">Filmdle</a></li>
+            <li><a href="/html/map.html">Mapa Interactiu</a></li>
+            <li><a href="/html/techniques.html">Tècniques</a></li>
+        </ul>
+    </nav>
+</header>
+<footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
