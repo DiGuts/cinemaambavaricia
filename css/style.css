@@ -1,3 +1,12 @@
+:root{
+    --black: #101018ff;
+    --less-black: #1b160dff;
+    --grey: #3a3a40ff;
+    --beige: #c9c19fff;
+    --whiter-beige: #e2ddcbff;
+    --white: white;
+}
+
 body{
     margin: 0px;
 }
