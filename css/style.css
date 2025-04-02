@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: moms;
-    src: url(/assets/fonts/moms.ttf) format('truetype');
+    font-family: tox;
+    src: url(/assets/fonts/tox.ttf) format('truetype');
 }
 
 html, body {
@@ -47,9 +47,10 @@ header h1 {
     align-items: center;
     padding: 20px;
 }
+
 .section {
-    width: 80%;
-    max-width: 1200px;
+    width: 85%;
+    max-width: 1300px;
     margin: 20px 0;
     background-color: var(--whiter-beige);
     padding: 20px;
@@ -57,9 +58,11 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .section img {
-    width: 100%;
+    width: 40%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
 }
 .section h2 {
     color: #333;
@@ -76,7 +79,7 @@ header h1 {
     text-align: center;
     color: var(--less-black);
     font-size: 3rem;
-    font-family: moms;
+    font-family: tox;
 }
 footer {
     background-color: var(--less-black);
