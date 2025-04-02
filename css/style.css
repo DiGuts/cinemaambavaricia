@@ -57,9 +57,10 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .section img {
-    width: 100%;
+    width: 500px;
     height: auto;
     border-radius: 8px;
+    float: right;
 }
 .section h2 {
     color: #333;
