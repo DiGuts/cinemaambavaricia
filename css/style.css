@@ -25,6 +25,8 @@ body {
             #0000000D 1px, /* Negre molt suau */
             #0000000D 25px /* Separació entre ratlles */
     );
+    display: flex;
+    flex-direction: column;
     background-blend-mode: overlay;
     font-family: Arial, sans-serif;
     margin: 0;
