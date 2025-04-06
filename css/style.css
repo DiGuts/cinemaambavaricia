@@ -51,8 +51,8 @@ a {
 }
 
 .section {
-    width: 80%;
-    max-width: 1200px;
+    width: 85%;
+    max-width: 1300px;
     margin: 20px 0;
     background-color: var(--whiter-beige);
     padding: 40px;
@@ -103,7 +103,7 @@ a {
     text-align: center;
     color: var(--less-black);
     font-size: 3rem;
-    font-family: moms;
+    font-family: tox;
 }
 
 table {
