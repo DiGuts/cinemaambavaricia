@@ -6,10 +6,149 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Títol</title>
+    <title>Cinema amb Avarícia</title>
 </head>
 <body>
     <div id="navbar"></div>
-    <script src="js/navbar.js"></script>
+    <script src="js/utils/navbar.js"></script>
+
+    <h1 id="titol-seccio">Introducció</h1>
+
+    <div class="content">
+        <div class="section">
+            <h2>Descobrint l'Art dels Directors: Tècniques que Donen Vida al Cinema</h2>
+
+            <p>El cinema és molt més que una càmera enfocant actors. És una combinació de decisions creatives, tècniques i estilístiques que defineixen l'obra d’un director. A través d’aquest blog, aprofundirem en el món de diversos directors reconeguts i descobrirem com el seu estil únic influeix en la narrativa i l’experiència visual de les seves pel·lícules.</p>
+            
+            <p>Cada director té una empremta pròpia. Quentin Tarantino és conegut pels seus diàlegs punyents, les escenes de violència estilitzada i una estructura narrativa no lineal. Tim Burton, en canvi, destaca pel seu univers gòtic i fantàstic, ple de personatges excèntrics i escenografies fosques però encantadores. I Hayao Miyazaki, mestre de l’animació japonesa, combina fantasia, crítica social i una sensibilitat poètica que transcendeix edats i cultures.</p>
+            
+            <p>Per entendre millor aquestes diferències, podem observar la següent taula que resumeix algunes tècniques clau emprades per aquests directors:</p>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Director</th>
+                  <th>Tècniques Principals</th>
+                  <th>Pel·lícula Representativa</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Quentin Tarantino</td>
+                  <td>Diàlegs llargs, narrativa no lineal, homenatges al cinema de gènere</td>
+                  <td>Pulp Fiction (1994)</td>
+                </tr>
+                <tr>
+                  <td>Tim Burton</td>
+                  <td>Estètica gòtica, personatges marginals, ús intens del stop-motion</td>
+                  <td>Edward Scissorhands (1990)</td>
+                </tr>
+                <tr>
+                  <td>Hayao Miyazaki</td>
+                  <td>Temes ecologistes, protagonistes femenines fortes, móns màgics</td>
+                  <td>Spirited Away (2001)</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <p>A més d’analitzar les tècniques individuals, aquest blog també explorarà recursos cinematogràfics més amplis que qualsevol director pot utilitzar per enriquir el seu relat visual. Això inclou l’ús del color, el moviment de càmera, l’edició rítmica i la il·luminació dramàtica.</p>
+            
+            <p>Per començar el teu viatge com a observador crític o aspirant a cineasta, et recomanem seguir aquests passos fonamentals:</p>
+            <ol>
+              <li>Selecciona un director i mira almenys tres de les seves pel·lícules.</li>
+              <li>Anota patrons visuals, temes recurrents i elements de muntatge.</li>
+              <li>Investiga entrevistes o documentals sobre el seu procés creatiu.</li>
+              <li>Compara aquestes observacions amb altres directors.</li>
+              <li>Aplica algunes d'aquestes tècniques en els teus propis projectes audiovisuals.</li>
+            </ol>    
+        </div>
+
+        <div class="section">
+            <h2>Comparteix la teva tècnica cinematogràfica!</h2>
+            <p>Si coneixes una tècnica original o interessant que s’utilitza en el món del cinema, comparteix-la amb nosaltres i podrà ser destacada al blog!</p>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <!-- Nom i correu -->
+                <label for="nom">Nom complet:</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+
+                <label for="email">Correu electrònic:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- Títol i descripció de la tècnica -->
+                <label for="titol">Títol de la tècnica:</label><br>
+                <input type="text" id="titol" name="titol" required><br><br>
+
+                <label for="descripcio">Descripció breu:</label><br>
+                <textarea id="descripcio" name="descripcio" rows="4" cols="50" required></textarea><br><br>
+
+                <!-- Radio buttons: àmbit d’aplicació -->
+                <p>En quin àmbit s’utilitza principalment aquesta tècnica?</p>
+                <input type="radio" id="direccio" name="ambit" value="direccio">
+                <label for="direccio">Direcció</label><br>
+                <input type="radio" id="fotografia" name="ambit" value="fotografia">
+                <label for="fotografia">Direcció de fotografia</label><br>
+                <input type="radio" id="so" name="ambit" value="so">
+                <label for="so">So i música</label><br><br>
+
+                <!-- Checkbox: categories relacionades -->
+                <p>Categories relacionades:</p>
+                <input type="checkbox" id="guio" name="categories" value="guio">
+                <label for="guio">Guió</label><br>
+                <input type="checkbox" id="edicio" name="categories" value="edicio">
+                <label for="edicio">Edició i muntatge</label><br>
+                <input type="checkbox" id="estetica" name="categories" value="estetica">
+                <label for="estetica">Estètica visual</label><br>
+                <input type="checkbox" id="sofx" name="categories" value="sofx">
+                <label for="sofx">Efectes especials i sonors</label><br><br>
+
+                <!-- Fitxer adjunt -->
+                <label for="fitxer">Puja un arxiu relacionat (guió, vídeo, storyboard...):</label><br>
+                <input type="file" id="fitxer" name="fitxer" accept=".pdf,.mp4,.jpg,.png,.doc,.docx"><br><br>
+
+                <!-- Botons -->
+                <input type="submit" value="Enviar tècnica">
+                <input type="reset" value="Netejar">
+            </form>
+        </div>
+
+        <div class="section">
+            <h2 id="contacte">Contacte</h2>
+            <p>Si vols rebre notícies, actualitzacions sobre directors i noves tècniques cinematogràfiques, omple el següent formulari:</p>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="email">Correu electrònic:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <p>Amb quina freqüència vols rebre notificacions?</p>
+            <input type="radio" id="diari" name="freq" value="diari">
+            <label for="diari">Diàriament</label><br>
+            <input type="radio" id="setmanal" name="freq" value="setmanal">
+            <label for="setmanal">Setmanalment</label><br>
+            <input type="radio" id="mensual" name="freq" value="mensual">
+            <label for="mensual">Mensualment</label><br><br>
+
+            <p>Temes que t'interessen:</p>
+            <input type="checkbox" id="directors" name="interessos" value="directors">
+            <label for="directors">Directors de cinema</label><br>
+            <input type="checkbox" id="tecniques" name="interessos" value="tecniques">
+            <label for="tecniques">Tècniques de filmació</label><br>
+            <input type="checkbox" id="recursos" name="interessos" value="recursos">
+            <label for="recursos">Recursos audiovisuals</label><br><br>
+
+            <label for="fitxer">Adjunta un arxiu (opcional):</label><br>
+            <input type="file" id="fitxer" name="fitxer"><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Netejar">
+            </form>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+    <script src="js/utils/footer.js"></script>
 </body>
 </html>
