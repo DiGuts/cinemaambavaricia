@@ -16,7 +16,6 @@
 html, body {
     overflow-x: hidden;
 }
-
 body {
     background-image: repeating-linear-gradient(
             90deg,
@@ -34,7 +33,6 @@ body {
     background-color: var(--beige);
     line-height: 1.6;
 }
-
 header {
     background: var(--less-black);
     color: var(--whiter-beige);
@@ -42,11 +40,9 @@ header {
     text-align: left;
     border-bottom: 4px solid var(--border-grey);
 }
-
 header h1 {
     margin: 0;
 }
-
 .content {
     display: flex;
     flex-direction: column;
@@ -59,20 +55,35 @@ header h1 {
     max-width: 1200px;
     margin: 20px 0;
     background-color: var(--whiter-beige);
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    position: relative;
 }
 
-.section img {
-    width: 100%;
+.section .section-img {
+    width: 300px;
     height: auto;
     border-radius: 8px;
+    float: right;
+    margin-left: 20px;
+}
+
+.section .director-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+    margin-left: 20px;
 }
 
 .section h2 {
     color: #333;
     font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .section p {
