@@ -81,6 +81,7 @@ header h1 {
     color: #333;
     font-size: 24px;
     font-weight: bold;
+    text-decoration: underline;
 }
 .section p {
     color: #555;
